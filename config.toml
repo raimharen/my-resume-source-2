@@ -19,6 +19,7 @@ interests = true
 contact = true
 tagline = false
 aboutMe = true
+whatCan = true
 projects = false
 papers = false
 avatar = true
