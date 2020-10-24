@@ -6,7 +6,7 @@ theme = "resume-A4"
 
 [params]
 useFontAwesome = true
-avatar = "avatar.jpg"
+avatar = "avatar.jpeg"
 
 [params.display]
 experience = true
@@ -19,6 +19,7 @@ interests = true
 contact = true
 tagline = false
 aboutMe = true
+whatCan = true
 projects = false
 papers = false
 avatar = true
