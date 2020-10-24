@@ -6,7 +6,7 @@ theme = "resume-A4"
 
 [params]
 useFontAwesome = true
-avatar = "avatar.jpg"
+avatar = "avatar.jpeg"
 
 [params.display]
 experience = true
