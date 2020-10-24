@@ -1,0 +1,39 @@
+baseURL = "raimharen.github.io"
+languageCode = "en-us"
+title = "Brain Dikun | Resume"
+disableKinds = ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robotsTXT", "404"]
+theme = "resume-A4"
+
+[params]
+useFontAwesome = true
+avatar = "avatar.jpg"
+
+[params.display]
+experience = true
+education = true
+languages = true
+awards = false
+skills = true
+skills_grouped = false
+interests = true
+contact = true
+tagline = false
+aboutMe = true
+projects = false
+papers = false
+avatar = true
+
+[params.display.footer]
+footer = true
+links = true
+credits = false
+
+[params.footer]
+footnote = "You can print this resume in A4 size or save as pdf. | Last update on 11.10.2020."
+
+[params.footer.links]
+[[params.footer.links.link]]
+prefix = "My"
+name = "Github"
+url = "https://github.com/raimharen"
+icon = "fab fa-github"

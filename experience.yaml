@@ -1,0 +1,23 @@
+- name: "Lawnmower"
+  company: "Krausberg Eesti"
+  date: "06.2020 - present"
+  details: "Grass mowing, object cleaning, and finding interesting things in grass (from pet toys to knives and power banks)."
+
+- name: "Packager"
+  company: "SUPERSA OÜ (Barbora)"
+  date: "04.2020 - 06.2020"
+  details: "Collecting and transporting goods."
+
+- name: "Packager"
+  company: "Baltika Group"
+  date: "06.2018 - 01.2019"
+  details: "Collecting and transporting goods."
+
+- name: "System administrator"
+  company: "Kool Gümnaasium"
+  date: "03.2018 - 05.2018"
+  details: "Repairing computers and troubleshooting network problems."
+
+- name: "Web developer "
+  company: "Ida-Virumaa Kutsehariduskeskus"
+  date: "03.2017 - 05.2017"
