@@ -1,0 +1,37 @@
+.footer {
+    width: 8.25in;
+    margin: 36px auto;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+}
+  
+.link-text {
+    color: #202020;
+    font-weight: 700;
+    &:hover {
+        color: white;
+    }
+}
+
+#link::after {
+    content: "\00B7";
+}
+
+#link:last-child::after {
+    content: "";
+}
+  
+a {
+    color: black;
+    padding: 0 4px;
+    &:hover {
+        color: white;
+        background-color: black;
+        transition: all 0.35s ease-out;
+        transition-property: all 0.35s ease-out;
+        -webkit-transition-property: all 0.35s ease-out;
+        -moz-transition-property: all 0.35s ease-out;
+        -o-transition-property: all 0.35s ease-out;
+    }
+}

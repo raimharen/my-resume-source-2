@@ -1,0 +1,11 @@
+<div class="col-7 my-auto titleHeader">
+        {{ range .Site.Data.features.about }}
+        <h1>{{ .name }}</h1>
+        {{ if $.Site.Params.display.tagline }}<h3 class="tagline">{{ .tagline }}</h3>{{end}}
+        {{ if $.Site.Params.display.contact }}<span>{{ .phone }} | {{ .email }} | {{ end }}
+        {{ if $.Site.Params.display.github }} {{ if $.Site.Params.useFontAwesome }}<i class="{{.icon}}"></i>{{ end }}<a href="{{.github}}"><span class="link-text">{{ .githubName }}</span></a></span>{{ end }}</span>
+        {{ end }}
+</div>
+{{ if .Site.Params.display.avatar }}
+<div class="col-5 my-auto"><img class="avatar" width="104" height="140" src="{{.Site.Params.avatar}}" alt=""></div>
+{{ end }}

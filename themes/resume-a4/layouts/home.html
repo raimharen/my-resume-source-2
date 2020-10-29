@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    {{ if .Site.Params.useFontAwesome }}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    {{ end }}
+    <title itemprop="name">{{ .Site.Title }}</title>
+</head>
+
+<body>
+    <div class="container resumeCanvas">
+    <!--<main class="resumeCanvas">-->
+        <div class="row header">
+            {{ partial "header" . }}
+        </div>
+        <div class="row">
+            <div class="col-7 leftSide">
+                {{ if .Site.Params.display.aboutMe }}
+                    {{ partial "about-me" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.whatCan }}
+                    {{ partial "what-can" . }}
+                {{ end }}
+                
+                {{ if .Site.Params.display.experience }}
+                    {{ partial "experience" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.projects }}
+                    {{ partial "projects" . }}
+                {{ end }}
+            
+                {{ if .Site.Params.display.papers }}
+                    {{ partial "papers" . }}
+                {{ end }}
+            </div>
+            <div class="col-5 rightSide">
+                {{ if .Site.Params.display.education }}
+                    {{ partial "education" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.languages }}
+                    {{ partial "languages" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.awards }}
+                    {{ partial "awards" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.skills }}
+                    {{ partial "skills" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.skills_grouped }}
+                    {{ partial "skills_grouped" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.interests }}
+                    {{ partial "interests" . }}
+                {{ end }}
+            </div>
+        </div>
+    </div>
+   <!-- </main>-->
+    {{ if .Site.Params.display.footer.footer }}
+    <div class="row">
+        <div class="col footer">{{ partial "footer" .}}</div>
+    </div>
+    {{ end }}
+</body>
+</html>
