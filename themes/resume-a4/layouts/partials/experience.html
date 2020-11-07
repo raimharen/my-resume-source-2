@@ -15,8 +15,8 @@
         {{ range where $.Site.Data.experience "company" $company }}
         <div class="item">
             <div class="row">
-                <span class="col-8">{{ .name }}</span>
-                <span class="col-4">{{ .date }}</span></div>
+                <span class="col-sm-8 align-self-start">{{ .name }}</span>
+                <span class="col-sm-4 align-self-end">{{ .date }}</span></div>
             <div class="row">    
             <div class="col-11"><p>{{ .details | markdownify }}</p></div>
             </div>
