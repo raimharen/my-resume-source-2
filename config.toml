@@ -5,7 +5,7 @@ disableKinds = ["taxonomy", "term", "page", "section", "RSS", "sitemap", "robots
 theme = "resume-A4"
 
 [params]
-useFontAwesome = true
+useFontAwesome = false
 avatar = "avatar.jpeg"
 
 [params.display]
