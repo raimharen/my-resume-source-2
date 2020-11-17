@@ -1,4 +1,4 @@
-<div class="col-7 my-auto titleHeader">
+<div class="col-md-7 my-auto titleHeader">
         {{ range .Site.Data.features.about }}
         <div class="row">
                 <div class="col-12">
@@ -20,5 +20,5 @@
                 {{ end }}
 </div>
 {{ if .Site.Params.display.avatar }}
-<div class="col-5 my-auto"><img class="avatar" width="104" height="140" src="{{.Site.Params.avatar}}" alt=""></div>
+<div class="col-md-5 my-auto"><img class="avatar" width="104" height="140" src="{{.Site.Params.avatar}}" alt=""></div>
 {{ end }}

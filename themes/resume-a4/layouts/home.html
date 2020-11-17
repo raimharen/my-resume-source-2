@@ -22,7 +22,7 @@
             {{ partial "header" . }}
         </div>
         <div class="row">
-            <div class="col-7 leftSide">
+            <div class="col-md-7 leftSide">
                 {{ if .Site.Params.display.aboutMe }}
                     {{ partial "about-me" . }}
                 {{ end }}
@@ -43,7 +43,7 @@
                     {{ partial "papers" . }}
                 {{ end }}
             </div>
-            <div class="col-5 rightSide">
+            <div class="col-md-5 rightSide">
                 {{ if .Site.Params.display.education }}
                     {{ partial "education" . }}
                 {{ end }}
