@@ -6,7 +6,7 @@
                 </div>
         </div>
                 {{ if $.Site.Params.display.contact }}
-                        <span>{{ .phone }} | {{ .email }} | 
+                        <div id="contact">|{{ .phone }} | {{ .email }} | 
                 {{ end }}
                 {{ if $.Site.Params.display.github }} 
                         {{ if $.Site.Params.useFontAwesome }}
@@ -15,7 +15,8 @@
                         <a href="{{.github}}">
                                 <span class="link-text">{{ .githubName }}</span>
                         </a>
-                        </span>
+                        <span id="line">|</span>
+                        </div>
                         {{ end }}
                 {{ end }}
 </div>
