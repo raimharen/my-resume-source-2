@@ -2,7 +2,7 @@
     <h1 class="section-title">About Me</h1>
     <p>
         {{ range .Site.Data.features.about }}
-            {{ .details }}
+            {{ .details | markdownify }}
         {{ end }}
     </p>
 </div>

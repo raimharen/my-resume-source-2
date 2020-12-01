@@ -12,7 +12,17 @@ body {
 }
   
 a {
-    text-decoration: none;
+  color: black;
+  padding: 0 0px;
+  &:hover {
+      color: white;
+      background-color: black;
+      transition: all 0.35s ease-out;
+      transition-property: all 0.35s ease-out;
+      -webkit-transition-property: all 0.35s ease-out;
+      -moz-transition-property: all 0.35s ease-out;
+      -o-transition-property: all 0.35s ease-out;
+  }
 }
   
 li {
@@ -61,7 +71,7 @@ li {
   
   .leftSide, .rightSide {
     margin-top: 12px;
-    font-size: 14px;
+    font-size: 15px;
     h1, h2, h3 {
       line-height: 1.2;
     }
