@@ -12,10 +12,9 @@
                         {{ if $.Site.Params.useFontAwesome }}
                                 <i class="{{.icon}}"></i>
                         {{ end }}
-                        <a href="{{.github}}">
+                        <a href="{{.github}}" target="_blank">
                                 <span class="link-text">{{ .githubName }}</span>
-                        </a>
-                        <span id="line">|</span>
+                        </a><span id="line">|</span>
                         </div>
                         {{ end }}
                 {{ end }}

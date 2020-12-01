@@ -36,3 +36,4 @@ about:
     icon: fab fa-github
 can:
   - details: "Setup of the web sites from scratch by static site generation, Hugo & HTML."
+  - details: "Make a scraper using Python lib BeautifulSoup."

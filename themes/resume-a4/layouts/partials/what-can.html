@@ -2,7 +2,7 @@
     <h1 class="section-title">What I can</h1>
     <p>
         {{ range .Site.Data.features.can }}
-            {{ .details }}
+            <p>{{ .details }}</p>
         {{ end }}
     </p>
 </div>

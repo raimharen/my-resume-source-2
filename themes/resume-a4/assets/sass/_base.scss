@@ -12,10 +12,11 @@ body {
 }
   
 a {
-  color: black;
-  padding: 0 0px;
+  color: black !important;
+  font-weight: bold;
   &:hover {
-      color: white;
+      text-decoration: none !important;
+      color: white !important;
       background-color: black;
       transition: all 0.35s ease-out;
       transition-property: all 0.35s ease-out;
