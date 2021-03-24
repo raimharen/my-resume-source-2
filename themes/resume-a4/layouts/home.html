@@ -28,6 +28,10 @@
                 {{ end }}
 
                 {{ if .Site.Params.display.whatCan }}
+                    {{ partial "doing" . }}
+                {{ end }}
+
+                {{ if .Site.Params.display.whatCan }}
                     {{ partial "what-can" . }}
                 {{ end }}
                 

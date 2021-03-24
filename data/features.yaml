@@ -1,14 +1,15 @@
 skills:
   - "PHP"
+  - "Laravel"
   - "JavaScript"
   - "Python"
+  - "Bootstrap"
   - "SQL"
   - "Git"
-  - "Excel"
 
 interests:
   - Cycling
-  - Reading
+  - Reading books/mangas
   - Anime
   - IT world
   - Writing
@@ -32,8 +33,12 @@ about:
               to make that as part of my life. Usually I write small scripts on Python and PHP (yep), so for now 
               I can't show much (yet), but still you can visit my [github](https://github.com/raimharen). Nice to meet you."
     github: https://github.com/raimharen
-    githubName: GitHub
+    githubName: github.com/raimharen
     icon: fab fa-github
 can:
+  - details: "Setup Laravel website."
   - details: "Setup of the web sites from scratch by static site generation, Hugo & HTML."
   - details: "Make a scraper using Python lib BeautifulSoup."
+
+doing:
+  - details: "Taking Laracast courses."
