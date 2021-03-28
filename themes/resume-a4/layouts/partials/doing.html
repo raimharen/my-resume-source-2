@@ -1,0 +1,8 @@
+<div class="section">
+    <h1 class="section-title">What I'm doing right now</h1>
+    <p>
+        {{ range .Site.Data.features.doing }}
+            <p>{{ .details }}</p>
+        {{ end }}
+    </p>
+</div>
