@@ -2,9 +2,9 @@ skills:
   - "PHP"
   - "Laravel"
   - "JavaScript"
-  - "Python"
-  - "Bootstrap"
-  - "SQL"
+  - "Tailwind"
+  - "Alpine.js"
+  - "MySQL"
   - "Git"
 
 interests:
@@ -41,4 +41,4 @@ can:
   - details: "Make a scraper using Python lib BeautifulSoup."
 
 doing:
-  - details: "Taking Laracast courses."
+  - details: "Studying Tailwind, Alpine.js, Laravel, Livewire (TALL stack). Thanks Laracast!"
